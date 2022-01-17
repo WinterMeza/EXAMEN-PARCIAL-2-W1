@@ -36,7 +36,7 @@ var getData = function(){
     document.getElementById("Semestre").value = "";
     document.getElementById("Paralelo").value = "";
     document.getElementById("Correo").value = "";
-    
+    localStorage.setItem( JSON.stringify(DatosCLientes));
     }
 }
 }
